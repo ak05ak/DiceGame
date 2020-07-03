@@ -1,0 +1,46 @@
+/* ************************* tag selectors ************************* */
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+p {
+  font-family: "Ubuntu", sans-serif;
+  color: grey;
+}
+/* ************************* class selectors ************************* */
+.button-pos {
+  margin-top: 4%;
+}
+.footer-icon {
+  margin: 18px 10px;
+}
+.heading {
+  color: #ff4c68;
+  margin-top: 3%;
+}
+.title {
+  margin-top: 2%;
+  color: black;
+}
+/* ************************* id selectors ************************* */
+#footer {
+  background-color: rgb(243, 233, 220);
+  position: fixed;
+  bottom: 0;
+
+  width: 100%;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+@media (max-width: 991px) {
+  #footer {
+    position: static;
+  }
+}
